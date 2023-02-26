@@ -56,9 +56,8 @@ class ProductService {
     product.materialName = ingredients.map((i) => {
       return {
         material: i['Material.name'],
-        Dosage: i.volume,
-        Unit: i['Material.unit'],
-        Content: i['Material.content'],
+        분량: i.volume,
+        설명: i['Material.content'],
       };
     });
 

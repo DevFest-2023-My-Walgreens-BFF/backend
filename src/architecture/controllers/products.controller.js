@@ -8,7 +8,7 @@ class ProductController {
   constructor() {
     this.productService = new ProductService();
   }
-
+  
   // 제품 목록 조회 (검색)
   findMedicines = async (req, res, next) => {
     try {

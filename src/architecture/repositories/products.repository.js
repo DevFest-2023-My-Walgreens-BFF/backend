@@ -177,7 +177,7 @@ class ProductRepository {
             'itemName',
             'entpName',
             'etcOtcCode',
-            'productType',
+            // 'productType',
             'itemImage',
           ],
         },
